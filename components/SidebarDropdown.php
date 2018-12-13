@@ -9,7 +9,7 @@
  * @link http://yujin1st.ru
  */
 
-namespace yujin1st\materialtheme\components;
+namespace yujin1st\unifytheme\components;
 
 use yii\base\InvalidConfigException;
 use yii\bootstrap\Dropdown;

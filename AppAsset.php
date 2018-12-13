@@ -4,7 +4,7 @@
  * @link http://yujin1st.ru
  */
 
-namespace yujin1st\materialtheme;
+namespace yujin1st\unifytheme;
 
 use yii\web\AssetBundle;
 
