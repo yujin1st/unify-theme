@@ -1,0 +1,51 @@
+{
+  "name": "yujin1st/unify-theme",
+  "description": "unify theme assets",
+  "keywords": [
+    "yii2",
+    "theme",
+    "bootstrap"
+  ],
+  "homepage": "https://github.com/yujin1st/unifytheme-theme",
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "support": {
+    "source": "http://wrapbootstrap.com/preview/WB0412697",
+    "issues": "https://github.com/yujin1st/unifytheme-theme"
+  },
+  "authors": [
+    {
+      "name": "Evgeniy Bobrov",
+      "email": "yujin1st@gmail.com",
+      "homepage": "http://yujin1st.ru"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "~2.0"
+  },
+  "config": {
+    "process-timeout": 1800
+  },
+  "autoload": {
+    "psr-4": {
+      "yujin1st\\unifytheme\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    },
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
